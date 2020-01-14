@@ -10,7 +10,7 @@ def count(request):
     fulltext = request.GET['fulltext']
     print('text entered by user = '+fulltext)
     wordlist = fulltext.split()
-    worddictionary = None ## Issue here , pls fix it later
+    worddictionary = None # Issue here , please fix it later
 
     for word in wordlist:
          if word in worddictionary:
