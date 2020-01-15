@@ -21,4 +21,4 @@ def count(request):
     return render(request, 'count.html', {'userinput': fulltext , 'wordcount' : len(words), 'worddictionary' : worddictionary })
 
 def home2(request):
-    return (HttpResponse("Good morning, You are great!! <br> click <a href onClick=#> here </a>"))
+    return (HttpResponse("Good morning, You are great!!!! <br> click <a href onClick=#> here </a>"))
